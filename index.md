@@ -311,6 +311,25 @@ $ mvn archetype:generate -DgroupId=com.example.grpc \
  direct to the project folder
  `$ cd grpc-hello-server`
  
+## Simple example in python
+ There is a simple example to implement a greeting service in python.
+ You can download the file in the [example](https://www.baidu.com)
+ To run the service, first you should make sure you already install grpc and grpc tool as it mentioned before.
+ Then Go to the helloworld directory
+ ```
+ $ cd example/helloworld
+ ```
+ ### Run the gRPC example
+ 1.run the server
+ ```
+ $python greeter_server.py
+ ```
+ 2. run the client
+ ```
+ $python greeter_client.py
+ ```
+ 
+ 
  
 
 ### References
