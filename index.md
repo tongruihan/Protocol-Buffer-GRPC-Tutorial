@@ -313,7 +313,7 @@ $ mvn archetype:generate -DgroupId=com.example.grpc \
  
 ## Simple example in python
  There is a simple example to implement a greeting service in python.
- You can download the file in the [example](https://www.baidu.com)
+ You can download the file in the [example](https://github.com/tongruihan/Protocol-Buffer-GRPC-Tutorial/tree/master/example)
  To run the service, first you should make sure you already install grpc and grpc tool as it mentioned before.
  Then Go to the helloworld directory
  ```
